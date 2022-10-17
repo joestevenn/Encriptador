@@ -1,0 +1,53 @@
+* {
+    font-family: "Inter", sans-serif;
+       
+    
+}
+
+body{
+    background-color: rgb(162, 215, 41);
+}
+main{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 80px;
+    align-items: center;
+    
+    
+}
+button{
+    background-color: rgb(60, 145, 230);
+    border-radius: 10px;
+    width: 45%;
+    height: auto;        
+    margin-top: 10px;    
+    border-color: azure;
+    font: bold;
+    font-size: 15px;
+}
+div{
+    display: flex;
+    justify-content: space-around;
+}
+.input-texto{
+    
+    height: 300px;
+    width: auto;
+    border-radius: 10px;
+}
+.mensaje{
+    position: relative;    
+    margin-right: 20px ;
+    background-image: url(img/Muñeco.png);
+    background-repeat: no-repeat;
+    background-position: 10px 90px;
+    background-size: 150px;
+    height: 300px;
+    width: auto;
+    border-radius: 10px;
+}
+.box-out{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
